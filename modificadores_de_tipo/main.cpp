@@ -12,7 +12,7 @@ using namespace std;
 int main(){
     int a = 0;
     short int b = 0;
-    long double c = 0;
+    long double c = 0; // o long nao autela o tamanho do tipo inteiro 
 
     cout<< sizeof(a)<<endl;
     cout<< sizeof(b)<<endl;

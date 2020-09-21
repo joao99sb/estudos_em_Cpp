@@ -8,3 +8,4 @@ string _string = "oi";
 bool _bool = true;
 float _float = 12.344;   // até 6 casas deciamis
 double _float2 =21.2222222222; // até 15 casas decimais
+#define e 2.7; //transforma e em uma constante

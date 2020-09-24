@@ -1,19 +1,18 @@
 #include <iostream>
+#include "Aviao.h"
 using namespace std;
 
-class Aviao{
-
-  public:
-    int vel = 0;
 
 
-}
 
 
-int main(int argc, char const *argv[])
+int main()
 {
-  Aviao Avi = new Aviao();
+  Aviao *avi = new Aviao(2); 
 
 
+  
+  avi->vel = 3;
+  avi->show();
   return 0;
 }

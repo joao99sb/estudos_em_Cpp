@@ -30,7 +30,7 @@ int main(int argc, char const *argv[])
   
   Carro car;
 
-  Carro *carros = new Carro[5];
+  Carro *carros = new Carro[5];  //array de carros 
 
   Carro car0, car1, car2,car3,car4;
 
